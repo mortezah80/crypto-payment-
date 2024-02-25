@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("../../public/fonts/century-gothic/style.css");
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+*,
+*::after,
+*::before {
+  font-family: Century Gothic;
+}
+
+input {
+  outline: none;
+}
+
+body {
+  color: rgba(28, 23, 23, 0.87);
+  background-color: #fafafa;
+}
+
+.coinScroll::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.coinScroll::-webkit-scrollbar-track {
+  background: #f2f2f2;
+  border-radius: 5px;
+}
+
+/* Handle */
+.coinScroll::-webkit-scrollbar-thumb {
+  background: #d4d4d4;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+.coinScroll::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.coinScroll {
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #d4d4d4 #f2f2f2; /* thumb color track color */
+}
+
+/* Override the default Firefox scrollbar styles */
+.coinScroll::-moz-scrollbar {
+  width: 6px;
+}
+
+.coinScroll::-moz-scrollbar-track {
+  background: #f2f2f2;
+  border-radius: 5px;
+}
+
+.coinScroll::-moz-scrollbar-thumb {
+  background: #d4d4d4;
+  border-radius: 5px;
+}
+
+.coinScroll::-moz-scrollbar-thumb:hover {
+  background: #555;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+  background: gainsboro;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #626999;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #626999;
+}

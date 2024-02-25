@@ -1,0 +1,33 @@
+<svg
+  width="28"
+  height="28"
+  viewBox="0 0 28 28"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <rect x="4" y="4" width="20" height="20" rx="10" fill="#E0F1FF" />
+  <rect
+    x="1.25"
+    y="1.25"
+    width="25.5"
+    height="25.5"
+    rx="12.75"
+    stroke="#1093FF"
+    stroke-width="1.5"
+  />
+  <circle
+    cx="13.9313"
+    cy="10.2033"
+    r="2.60317"
+    stroke="#1093FF"
+    stroke-width="1.5"
+  />
+  <ellipse
+    cx="13.9306"
+    cy="17.3629"
+    rx="4.55556"
+    ry="2.60317"
+    stroke="#1093FF"
+    stroke-width="1.5"
+  />
+</svg>
